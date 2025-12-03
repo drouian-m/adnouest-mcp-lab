@@ -1,0 +1,14 @@
+{
+  "extends": ["@tsconfig/node24/tsconfig"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "outDir": "dist",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["index.ts", "src/**/*.ts", "src/**/*.json"],
+  "exclude": ["src/**/*.spec.ts"]
+}

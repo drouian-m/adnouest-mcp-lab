@@ -1,0 +1,35 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/main.ts",
+  "packageManager": "pnpm@10.17.1",
+  "engineStrict": true,
+  "engines": {
+    "pnpm": ">=10",
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "OPENWEATHER_KEY=ec56f76b5b241455cfae1a208ebc9bdb node --experimental-strip-types src/main.ts",
+    "lint": "eslint \"src/**/*.ts\" && tsc --noEmit",
+    "lint:fix": "eslint --fix \"src/**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mgdis/eslint-config-typescript": "^2.1.2",
+    "@tsconfig/node24": "^24.0.1",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.8.1",
+    "eslint": "^8.57.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.1",
+    "express": "^5.1.0",
+    "zod": "^3.25.76"
+  }
+}

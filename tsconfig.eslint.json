@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["es2023"] // because of @mgdis/eslint-config-typescript
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+  ],
+  "exclude": []
+}
