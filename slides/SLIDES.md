@@ -183,7 +183,7 @@ Permet d'avoir des résultats plus pertinents dans les chatbots grâce à un con
 
 ## **POC libres**
 
-Mettre en pratique les concepts appris sur vos cas d'usage, nos produits, nos outils ...
+Mettre en pratique les concepts appris sur vos cas d'usage, produits, outils ...
 
 ---
 
