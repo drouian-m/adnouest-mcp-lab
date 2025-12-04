@@ -16,22 +16,22 @@ let tasks: Task[] = [
     title: 'Préparer la présentation MCP',
     description: "Slides et démo pour l'atelier",
     status: 'in-progress',
-    created_at: '2024-12-04T09:00:00Z',
+    created_at: '2025-12-04T09:00:00Z',
   },
   {
     id: 'task-2',
     title: 'Tester les resources',
     description: 'Vérifier que les URIs fonctionnent',
     status: 'todo',
-    created_at: '2024-12-04T09:30:00Z',
+    created_at: '2025-12-04T09:30:00Z',
   },
   {
     id: 'task-3',
     title: 'Documentation API',
     description: "Rédiger les exemples d'usage",
     status: 'done',
-    created_at: '2024-12-03T14:00:00Z',
-    completed_at: '2024-12-04T08:45:00Z',
+    created_at: '2025-12-03T14:00:00Z',
+    completed_at: '2025-12-04T08:45:00Z',
   },
 ];
 
