@@ -15,12 +15,9 @@ paginate: true
 
 ## **Programme de l'atelier**
 
-### **Première heure**
 - (15 min) Présentation de la techno MCP
-- (45 min) **Exercices pratiques** en TypeScript (création de votre premier MCP)
-
-### **Deuxième heure**
-- (50 min) **POC libres** sur vos cas d'usage, nos produits, nos outils ...
+- **Exercices pratiques** en TypeScript (création de votre premier MCP)
+- (Si temps restant) **POC libres** sur vos cas d'usage, vos produits, outils ...
 - (10 min) Conclusion
 
 ---
