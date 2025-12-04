@@ -155,7 +155,7 @@ https://github.com/modelcontextprotocol
 ### **Outils de développement**
 - MCP Inspector pour tester les serveurs
 ```sh
-npx @modelcontextprotocol/inspector
+npx --yes @modelcontextprotocol/inspector@0.16.7
 ```
 
 ---
